@@ -18,7 +18,7 @@ const Users = sequelize.define("user", {
     unique: true,
     validate: {
       len: {
-        args: [5, 25],
+        args: [5, 100],
         msg: "check your email again",
       },
       isEmail: true,

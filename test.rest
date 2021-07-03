@@ -29,7 +29,7 @@ Content-Type: application/json
 
 {
     "username" : "jemsbudi",
-    "email" : "jemblonganvalley@gmail.com",
+    "email" : "berliannet2@gmail.com",
     "phone" : "081289466129"
 }
 
@@ -38,7 +38,7 @@ POST https://uta-express-mailer.herokuapp.com/api/login
 Content-Type: application/json
 
 {
-    "username" : "tRaPsXD",
+    "username" : "jemsbudi",
     "email" : "berliannet2@gmail.com",
-    "phone" : "081289466529"
+    "phone" : "081289466129"
 }
