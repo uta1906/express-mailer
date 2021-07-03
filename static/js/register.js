@@ -25,7 +25,7 @@ const handleRegister = (event) => {
     .then((res) => res.json())
     .then((data) => {
       console.log(data);
-      if (data.status == 201) {
+      if (data.success) {
         cardNotif.style.display = "flex";
         cardNotif.innerHTML = `Register done`;
       } else {
