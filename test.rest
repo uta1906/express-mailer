@@ -9,6 +9,36 @@ Content-Type: application/json
     "phone" : "081289466529"
 }
 
-### READ USERS
-POST http://localhost:8080/api/register-read
+### LOGIN USERS
+POST http://localhost:8080/api/login
 Content-Type: application/json
+
+{
+    "username" : "tRaPsXD",
+    "email" : "berliannet2@gmail.com",
+    "phone" : "081289466529"
+}
+
+### READ USERS
+POST https://uta-express-mailer.herokuapp.com/api/register-read
+Content-Type: application/json
+
+### CREATE USERS
+POST https://uta-express-mailer.herokuapp.com/api/register
+Content-Type: application/json
+
+{
+    "username" : "jemsbudi",
+    "email" : "jemblonganvalley@gmail.com",
+    "phone" : "081289466129"
+}
+
+### LOGIN USERS
+POST https://uta-express-mailer.herokuapp.com/api/login
+Content-Type: application/json
+
+{
+    "username" : "tRaPsXD",
+    "email" : "berliannet2@gmail.com",
+    "phone" : "081289466529"
+}
