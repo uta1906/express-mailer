@@ -1,0 +1,14 @@
+
+### CREATE USERS
+POST http://localhost:8080/api/register
+Content-Type: application/json
+
+{
+    "username" : "tRaPsXD",
+    "email" : "berliannet2@gmail.com",
+    "phone" : "081289466529"
+}
+
+### READ USERS
+POST http://localhost:8080/api/register-read
+Content-Type: application/json
